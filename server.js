@@ -13,7 +13,7 @@ const MIME_TYPES = {
     '.json': 'application/json'
 };
 
-// Create HTTP server
+// Create HTTP serverr
 const server = http.createServer((req, res) => {
     console.log(`${req.method} ${req.url}`);
 
